@@ -1,0 +1,13 @@
+$font__default: "DIN Pro", sans-serif;
+$font__second: "Roboto", sans-serif;
+$font__button: "Gilroy", sans-serif;
+
+$color__orange: #F47821;
+$color__text: #4E4D53;
+$color__headers: #222;
+
+@mixin container($size: 775px) {
+  width: 100%;
+  max-width: $size;
+  margin: 0 auto;
+}

@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+@include font-face("DIN Pro", "../fonts/DINPro/DINPro");
+@include font-face("DIN Pro", "../fonts/DINPro/DINPro-Bold", bold);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Regular");
+@include font-face("Gilroy", "../fonts/Gilroy/Gilroy-Regular");
+@include font-face("Gilroy", "../fonts/Gilroy/Gilroy-Bold", bold);
+@include font-face("Gilroy", "../fonts/Gilroy/Gilroy-ExtraBold", 800);
