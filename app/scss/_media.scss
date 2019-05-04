@@ -3,4 +3,47 @@
 
 /*==========  Desktop First  ==========*/
 
+@media screen and (max-width: 1085px) {
+  .feature-item {
+    max-width: calc(50% - 20px);
+    text-align: center;
+    margin-bottom: 25px;
+
+    &__title{
+      &::after {
+        left: calc(50% - 12px);
+      }
+    }
+  }
+  .feature-list {
+    justify-content: space-around;
+    margin-bottom: -20px; // Компенсируем отступы feature-item
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .feature-tile {
+    max-width: 100%;
+  }
+  .form-step {
+    display: none;
+  }
+  .main-header {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .feature-item {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .h1, h1 {
+    font-size: 34px;
+    line-height: 1.5;
+  }
+}
 
